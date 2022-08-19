@@ -37,8 +37,8 @@ function ResponseTemplateTitles() {
         'Seven day closure',
         'Backlog closure',
         'Fixed in future version',
-        'Closing a WCCIS slowness case',
-        'WCCIS slowness first response'
+        'Closing a slowness case',
+        'Slowness first response'
     ];
 
     return Titles;
@@ -98,7 +98,7 @@ How to contact us: You can contact us by replying to this email, or by calling u
 Given that there may be some delay in your site being able to test the fix, we are requesting your permission to suspend this ticket.
 
 Please note that this ticket will remain open during this period.`,
-`We have received several alerts (LATEST NEW RELIC FOR CLOSE) suggesting that the slowness you experienced should be resolved. 
+`We have received several alerts (LATEST ALERT FOR CLOSE) suggesting that the slowness you experienced should be resolved. 
 
 Since we handle all slowness cases on a day-by-day basis, this ticket will now be closed. Should you receive further slowness, please raise a new incident ticket. `,
 `Thank you for raising this ticket with the support desk. 
