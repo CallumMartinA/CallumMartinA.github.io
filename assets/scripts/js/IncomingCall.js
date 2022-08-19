@@ -6,7 +6,7 @@ $(document).ready(() => {
 function CheckForUsername() {
 
     if (GetUsername() == 'Change Me') {
-        SendMessageToUI('Info', `Don't forget to udpate your name.`);
+        SendMessageToUI('Info', `Don't forget to udpate your name. There is a Change Me link at the top of the page.`);
     }
 }
 
