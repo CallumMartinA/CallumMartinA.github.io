@@ -105,7 +105,7 @@ Since we handle all slowness cases on a day-by-day basis, this ticket will now b
 
 We are currently investigating this drop in performance. Any updates will be provided when we have them. 
 
-We do appreciate the impact that this has for your site, and its users, and we are working to get this resolved in reasonable timeframe. `
+We do appreciate the impact that this has for your site, and its users, and we are working to get this resolved in a reasonable timeframe. `
     ];
 
     return Responses;
