@@ -1,0 +1,19 @@
+.ResponseTemplate {
+    background: none;
+    color: var(--font-colour);
+    padding: 0.3vh 0.5vw;
+    margin: 5vh 0;
+}
+
+.ResponseTemplate p {
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-2);
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: var(--fast-tran-speed);
+}
+
+.ResponseTemplate p:hover {
+    color: var(--accent-4);
+}
