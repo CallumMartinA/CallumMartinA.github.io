@@ -80,7 +80,7 @@ This case may be closed in 7 days from the date of this email.
 
 If we receive no feedback from you regarding this issue in 7 days, we will consider that you are happy for us to close the case without further contact. Alternatively, you can reply to this email or call the number below to advise us to close the case immediately OR to let us know that it should remain open. We remain ready to continue our investigation any time at your request. 
 
-If you have an account for our customer support website, you can see the full history of the support case there at  https://eu5.salesforce.com/secur/login_portal.jsp?orgId=00D24000000dsXj&portalId=06024000000HTrx
+If you have an account for our customer support website, you can see the full history of the support case there at https://customers.oneadvanced.com/s/login/?ec=302&startURL=%2Fs%2F
 
 How to contact us: You can contact us by replying to this email, or by calling us on 03303430067 (international customers: +44 3303430067) and quoting the reference number above.  We look forward to your reply and will be happy to assist you with any other issues you may have.`,
 `We are closing this case as we have not heard from you in an extended period. If you wish to re-open the case, please contact our service desk on 03303430067.`,
