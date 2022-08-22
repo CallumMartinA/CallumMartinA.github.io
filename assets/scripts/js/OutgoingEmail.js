@@ -112,9 +112,7 @@ function GetOutgoingEmailContent() {
             <label for="OutgoingEmailProduct">Select the appropiate team:</label>
             <input type="text" name="OutgoingEmailProduct" id="OutgoingEmailProduct" list="OutgoingEmailProductList" autocomplete="off">
             <datalist id="OutgoingEmailProductList">
-                <option value="CareDirector">CareDirector</option>
-                <option value="CareNotes">CareNotes</option>
-                <option value="CrossCare">CrossCare</option>
+            ${GetProductReferenceData()}
             </datalist>
         </div>
         <!-- MDS questions -->

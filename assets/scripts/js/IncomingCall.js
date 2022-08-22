@@ -24,6 +24,28 @@ function GatherIncomingCallData() {
     return OutputString;
 }
 
+function GetProductReferenceData() {
+
+    let ReferenceData = `
+        <option value="CareDirector V5">CareDirector V5</option>
+        <option value="CareDirector V6">CareDirector V6</option>
+        <option value="CareDirector Youth">CareDirector Youth</option>
+        <option value="CareNotes">CareNotes</option>
+        <option value="CrossCare">CrossCare</option>
+        <option value="Staffplan Roster">Staffplan Roster</option>
+        <option value="Staffplan Exchange">Staffplan Exchange</option>
+        <option value="CAMT">CAMT</option>
+        <option value="Everylife Integration">Everylife Integration</option>
+        <option value="Pass Integration">Pass Integration</option>
+        <option value="Caresys">Caresys</option>
+        <option value="Adastra">Adastra</option>
+        <option value="Adastra 111">Adastra 111</option>
+        <option value="Docman">Docman</option>
+    `;
+
+    return ReferenceData;
+}
+
 function GetIncomingCallContent() {
 
     let Content = `
@@ -36,11 +58,7 @@ function GetIncomingCallContent() {
             <label data-out="Product" for="IncomingCallProduct">Can I start by taking the affected product please?</label>
             <input type="text" name="IncomingCallProduct" id="IncomingCallProduct" list="IncomingCallProductList" autocomplete="off">
             <datalist id="IncomingCallProductList">
-                <option value="CareDirector V5">CareDirector V5</option>
-                <option value="CareDirector V6">CareDirector V6</option>
-                <option value="CareDirector Youth">CareDirector Youth</option>
-                <option value="CareNotes">CareNotes</option>
-                <option value="CrossCare">CrossCare</option>
+                ${GetProductReferenceData()}
             </datalist>
         </div>
         <!-- Customer name -->
