@@ -35,7 +35,6 @@ function ResponseTemplateTitles() {
         'PID',
         'Seven day notification',
         'Seven day closure',
-        'Backlog closure',
         'Fixed in future version',
         'Closing a slowness case',
         'Slowness first response'
@@ -84,15 +83,6 @@ If you have an account for our customer support website, you can see the full hi
 
 How to contact us: You can contact us by replying to this email, or by calling us on 03303430067 (international customers: +44 3303430067) and quoting the reference number above.  We look forward to your reply and will be happy to assist you with any other issues you may have.`,
 `We are closing this case as we have not heard from you in an extended period. If you wish to re-open the case, please contact our service desk on 03303430067.`,
-`This case appears to have been dormant for some time, and it’s likely that it has been resolved, cannot be consistently reproduced, or is no longer an issue. At this time, we are requesting permission to close this case in order to help us operate more efficiently. You can, of course, open a new case if the issue re-occurs.
-
-If this case does require additional attention, please let us know, and we will be happy to keep it open and again look into the matter.
-
-This case may be closed in 7 days from the date of this email.
-
-If we receive no feedback from you regarding this issue in 7 days, we will consider that you are happy for us to close the case without further contact. Alternatively, you can reply to this email or call the number below to advise us to close the case immediately OR to let us know that it should remain open. We remain ready to continue our investigation any time at your request.
-
-How to contact us: You can contact us by replying to this email, or by calling us on 03303430067 (international customers: +44 3303430067) and quoting the reference number above. We look forward to your reply and will be happy to assist you with any other issues you may have.`,
 `I can advise that a fix for this issue is being released in VERSION.
 
 Given that there may be some delay in your site being able to test the fix, we are requesting your permission to suspend this ticket.
