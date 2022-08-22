@@ -5,10 +5,10 @@ function GetPhoneNumbers() {
             <h3>Support desk</h3>
             <h4>03303430067</h4>
             <ul>
-                <li>Option 1 - Adastra</li>
-                <li>Option 2 - Community</li>
-                <li>Option 3 - Staffplan</li>
-                <li>Option 4 - Caresys</li>
+                <li>Option 1 - Docman</li>
+                <li>Option 2 - Care</li>
+                <li>Option 3 - Adastra</li>
+                <li>Option 4 - Community</li>
             </ul>
             <h3>Docman</h3>
             <ul>
@@ -24,6 +24,8 @@ function GetPhoneNumbers() {
                 <li>Caresys - 6004</li>
                 <li>Staffplan - 6003</li>
                 <li>Care Cloud - 6002</li>
+                <li>Adastra - 6001</li>
+                <li>Community - 6000</li>
             </ul>
             <h3>Departments</h3>
             <ul>
