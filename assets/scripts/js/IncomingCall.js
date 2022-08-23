@@ -76,6 +76,11 @@ function GetIncomingCallContent() {
             <label data-out="Contact email" for="IncomingCallCustomerContactEmail">Can I confirm your best contact email address?</label>
             <input type="text" name="IncomingCallCustomerContactEmail" id="IncomingCallCustomerContactEmail" autocomplete="off">
         </div>
+        <!-- Customer site -->
+        <div class="IncomingCallElement">
+            <label data-out="Site" for="IncomingCallCustomerSite">Where are you calling from?</label>
+            <input type="text" name="IncomingCallCustomerSite" id="IncomingCallCustomerSite" autocomplete="off">
+        </div>
         <!-- The problem  -->
         <div class="IncomingCallElement">
             <label data-out="Problem" for="IncomingCallProblem">What is the problem?</label>
