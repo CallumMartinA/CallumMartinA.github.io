@@ -107,6 +107,17 @@ function LoadOutgoingEmailCheckboxElements() {
 function GetOutgoingEmailContent() {
 
     let Content = `
+        <!-- Info -->
+        <div class="OutgoingEmailElement">
+            <p id="RequestMDSInfo">
+                This will generate an email you can use to request MDS from the customer. 
+            </p>
+        </div>
+        <div class="OutgoingEmailElement">
+            <p id="RequestMDSWarning">
+                Double-check the information we already have. Don't ask for the same thing more than once.
+            </p>
+        </div>
         <!-- Product -->
         <div class="OutgoingEmailElement">
             <label for="OutgoingEmailProduct">Select the appropiate team:</label>

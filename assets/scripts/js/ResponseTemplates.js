@@ -6,7 +6,11 @@ function GetResponseTemplatesContent() {
 
     let Responses = ResponseTemplateTitles();
 
-    let Output = '';
+    let Output = `
+        <p id="ResponseTemplateTitle">
+            This will generate an email based on your chosen template. 
+        </p>
+    `;
     for (let i = 0; i < Responses.length; i++) {
 
         Output += `
@@ -32,7 +36,7 @@ function ResponseTemplateTitles() {
         'Request steps to replicate',
         'Raising to the developers',
         'Customer is chasing an update',
-        'PID',
+        'PID warning',
         'Seven day notification',
         'Seven day closure',
         'Fixed in future version',

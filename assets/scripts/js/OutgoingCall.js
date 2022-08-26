@@ -7,7 +7,7 @@ function GetOutgoingCallContent() {
     let Content = `
         <!-- Notepad -->
         <div class="OutgoingCallElement">
-            <label for="OutgoingCallNotes">Outgoing call notes:</label>
+            <label id="OutgoingCallTitle" for="OutgoingCallNotes">Outgoing call notes:</label>
             <textarea name="OutgoingCallNotes" id="OutgoingCallNotes" autocomplete="off"></textarea>
         </div>
         <!-- Copy button -->
