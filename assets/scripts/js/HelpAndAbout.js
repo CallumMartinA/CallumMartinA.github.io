@@ -1,6 +1,6 @@
 function GetVersion() {
 
-    return 1.2;
+    return '1.2.4';
 }
 
 function GetHelpAndAboutContent() {
