@@ -29,3 +29,7 @@
     padding: 1.3vh 1vw;
     resize: vertical;
 }
+
+#OutgoingCallTitle {
+    font-size: 1.5vw;
+}
