@@ -115,7 +115,7 @@ function GetOutgoingEmailContent() {
         </div>
         <div class="OutgoingEmailElement">
             <p id="RequestMDSWarning">
-                Double-check the information we already have. Don't ask for the same thing more than once.
+                Please check the information we already have. Don't ask for the same thing more than once.
             </p>
         </div>
         <!-- Product -->
