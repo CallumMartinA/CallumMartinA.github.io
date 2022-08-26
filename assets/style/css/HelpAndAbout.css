@@ -15,3 +15,7 @@
 .HelpAndAboutContainer p span {
     color: var(--accent-2);
 }
+
+.HelpAndAboutContainer a {
+    color: var(--accent-4);
+}
