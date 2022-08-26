@@ -23,7 +23,7 @@ function GatherOutgoingEmailData() {
 
 This case is being investigated by the ${$('#OutgoingEmailProduct').val()} team. 
 
-We require the following information to investigate. Please try to answer all questions, as this will aid our investigations.\n\n`;
+Thank you for the information you have provided so far. We require the following to continue our investigations. Please try to answer all questions.\n\n`;
 
     let ChecboxQuestionOutputs = '';
     let CheckboxQuestions = $('.MDSQuestion');
