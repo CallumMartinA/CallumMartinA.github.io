@@ -70,9 +70,6 @@ function SendMessageToUI(Type, Message) {
 }
 
 function ProcessMenuButtonClick(Object) {
-
-    $('.MenuButton').removeClass('Selected');
-    Object.addClass('Selected');
     
     switch(Object.prop('id')) {
         case 'IncomingCall':
@@ -91,10 +88,16 @@ function ProcessMenuButtonClick(Object) {
         case 'PhoneNumbers':
             LoadMenuItemContent(GetPhoneNumbers());
             break;
+        case 'HelpAndAbout':
+            LoadMenuItemContent(GetHelpAndAboutContent());
+            break;
         default:
             SendMessageToUI('Error', 'Unknown menu button press.');
             return;
     }
+
+    $('.MenuButton').removeClass('Selected');
+    Object.addClass('Selected');
 }
 
 function LoadMenuItemContent(Content) {
