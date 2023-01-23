@@ -34,7 +34,8 @@ function ResponseTemplateTitles() {
     let Titles = [
         'Refer to the Ideas Portal',
         'Request steps to replicate',
-        'Raising to the developers',
+        'Raising to the developers (suspended)',
+        'Raising to the developers (active)',
         'Customer is chasing an update',
         'PID warning',
         'Seven day notification',
@@ -67,6 +68,9 @@ These steps are necessary for this investigation, and without them, we will not 
 `Please be advised that this is being investigated by our development team. For your reference, the Problem ticket reference is 12345678 and the Development reference is ABVN-1234. 
 
 This incident ticket will now be set to suspended during their investigation, though rest assured, we are looking into this. Should you have any further questions, please contact the support desk on 03303430067. `,
+`Please be advised that this is being investigated by our development team. For your reference, the Problem ticket reference is 12345678 and the Development reference is ABVN-1234. 
+
+This incident ticket will now be set to active during their investigation, though rest assured, we are looking into this. Should you have any further questions, please contact the support desk on 03303430067. `,
 `Firstly, please allow me to apologise for the delay in this ticket being handled. This is not representative of our standards and steps are being taken to provide a prompter service. 
 
 This case is still under investigation. You will be notified when we have a more meaningful update. We do appreciate the impact of this, and your patience is greatly appreciated.`,
