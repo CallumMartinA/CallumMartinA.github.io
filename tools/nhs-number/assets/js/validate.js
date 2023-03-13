@@ -34,7 +34,7 @@ function generate() {
 
     let sample;
     let max = 7777777777;
-    let min = 6000000000;
+    let min = 4000000000;
 
     for (let i = 0; i < 999; i++) {
         sample = Math.floor(Math.random() * (max - min + 1) + min);
